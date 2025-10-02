@@ -1,0 +1,15 @@
+NO js existe uma future Garbege Collector (GC) é um mecanismo da JVM(Java Virtual Machine)
+responsável por:
+    - Liberar automatiacmente da memória objetos que não estão mais sendo utilizados no programa .
+    
+    - Evitar vazamentos de memória (memory leaks).
+
+    - Melhorar a performance e o gerenciamento de recursos.
+
+exemplo: 
+
+    let firstName = 'Andre'
+    console.log(firstName)
+
+a partir do momento do momento que que a variável não estiver sendo usada 
+ela será apagada automatiacmente
