@@ -2,10 +2,14 @@ let computerNumber
 let userNumbers=[]
 let attempts = 0
 let maxGuesses = 10
+
 function init(){
 
     computerNumber = Math.floor(Math.random() * 100 + 1)
     console.log(computerNumber)
+}
+function newGame(){
+    window.location.reload()
 }
 
 function compareNumbers(){
@@ -26,8 +30,10 @@ function compareNumbers(){
             document.getElementById('attempts').innerHTML = attempts
         }else{
             document.getElementById('textOutput').innerHTML = 'Congratulations!!!'
+            document.getElementById('inputBox').setAttribute('Readonly','Readonly')
         }
     } else{
          document.getElementById('textOutput').innerHTML = 'you lose! the computer number was '+ computerNumber
+         document.getElementById('inputBox').setAttribute('Readonly','Readonly')
     }
 }
