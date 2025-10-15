@@ -1,0 +1,5 @@
+Guess the NUmber 1 - 100 
+é um jogo onde eu tenho que acertar o numero que foi sorteado de 1 a 100 
+vai haver quantidade de numero que posso chutar 
+vai ter interação dizendo o numero sorteado é maior ou menor.
+e vai ter um botão de tentar novamente.
